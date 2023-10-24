@@ -8,7 +8,7 @@ Remember to add it API keys wherever required.
 # API demos setup 
 
 Install node: 
-(https://nodejs.org/en/download)[https://nodejs.org/en/download]
+(https://nodejs.org/en/download)
 
 Install expressjs: 
 ```
