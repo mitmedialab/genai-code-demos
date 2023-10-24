@@ -53,12 +53,16 @@ app.post("/view", (req, res) => {
     stop: [";"],
   });
 
-    res.render(__dirname + "/views/story-writer.html", {name:response.data.choices[0].text});
+    res.render(__dirname + "/views/index.html", {name:response.data.choices[0].text});
 
   })()
 
   // These send fine
   // console.log(response.data.choices[0].text);
 
+});
+
+app.listen(3000, () => {
+  console.log('Listening on port ' + 3000);
 });
 
